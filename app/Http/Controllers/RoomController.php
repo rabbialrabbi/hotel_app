@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\reservation;
 use App\Rooms;
-use App\client;
+use App\Client;
 use Illuminate\Http\Request;
 
 class RoomController extends Controller
