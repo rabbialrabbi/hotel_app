@@ -30,7 +30,7 @@ Route::middleware('auth')->group(function (){
     Route::get('/room/{client_id}/{room_id}/{dateFrom}/{dateTo}','RoomController@store')->name('book_room');
 
 
-    Route::get('/reservations','Reservation@index');
+    Route::get('/reservations','ReservationController@index');
 });
 
 
